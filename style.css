@@ -18,6 +18,10 @@ body {
     overflow: hidden;
 }
 
+.image-header  {
+    display: none;
+}
+
 .desktop-header {
     display: none;
 }
@@ -125,8 +129,6 @@ body {
     width: 100%;
     margin: 30px 0px 30px 0px;
 }
-
-
 
 .stand-out-box {
     text-align: center;
@@ -413,6 +415,10 @@ body {
         height: 900px;
     }
 
+    .image-header  {
+        display: none;
+    }
+
     .desktop-header {
         display: none;
     }
@@ -628,14 +634,21 @@ body {
     }
 
     .header {
-        height: 80pc;
+        height: 100pc;
         display: flex;
         justify-content: space-between;
+        background-repeat: no-repeat;
+        background-position: center top;
+        clip-path: inset(23pc 0 0 0);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: translateY(-25pc);
     }
 
     .header-text {
         font-size: 3em;
-        height: 75pc;
+        flex: 1;
     }
 
     .desktop-header {
@@ -643,7 +656,6 @@ body {
         list-style: none;
         justify-content: space-between;
         font-size: 1.2rem;
-
     }
 
     .nav {
@@ -663,11 +675,9 @@ body {
 
     .sunnyside-header {
         display: flex;
-        justify-content: space-between;
-    }
-
-    .sunnyside-box {
-        padding-top: 20px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .push {
@@ -680,8 +690,8 @@ body {
 
     .header-content  {
         font-size: 3.5rem;
-        line-height: 8pc;
-        margin-top: 40px;
+        line-height: 13pc;
+        margin-top: 70px;
     }
 
     .icon-arrow-down  {
@@ -690,5 +700,195 @@ body {
     }
 
     /* ======= */
+     .egg-plus-transformation {
+         margin-top: -25pc;
+         display: flex;
+         justify-content: center;
+     }
+
+     .image-transform  {
+         flex: 1;
+         order: 2;
+     }
+
+     .transformation-container  {
+         flex: 1;
+         order: 1;
+     }
+
+     .image-stand-out {
+        flex: 1;
+    }
+    
+    .stand-out {
+         flex: 1;
+    }
+    
+    .stand-out-content {
+        text-align: center;
+        padding: 0px 30px;
+        line-height: 22px;
+        opacity: 0.7;
+        margin-top: 20px;
+    }
+
+    /* =======graphics */
+     .graphic-plus-photography  {
+        display: flex;
+     }
+
+     .graphic-container {
+        width: 100%;
+        height: 400px;
+        padding-top: 15pc;
+        text-align: center;
+    }
+    
+    .graphic-box {
+        padding: 10px 25px;
+        width: auto;
+        box-sizing: border-box;
+        margin-top: 20%;
+        line-height: 23px;
+    }
+    
+    .graphic-design {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+    .graphic-content {
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0px 80px;
+    }
+
+    .photography-container {
+        width: 100%;
+        height: 400px;
+        padding-top: 15pc;
+        text-align: center;
+    }
+    
+    .photography-box {
+        padding: 10px 25px;
+        width: auto;
+        box-sizing: border-box;
+        margin-top: 20%;
+        line-height: 23px;
+    }
+    
+    .photography {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+    .photography-content {
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0px 80px;
+    }
+
+    /* ============client testimonials======== */
+.testimonials-container {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.client-testimonials {
+    font-size: medium;
+    letter-spacing: 4px;
+    opacity: 0.5;
+}
+
+.clients  {
+    display: flex;
+}
+
+.emily-image {
+    margin-top: 50px;
+    width: 50px;
+}
+
+.emily-testimonials {
+    margin-top: 30px;
+    padding: 0px 0pc;
+    line-height: 25px;
+}
+
+.name-box-one {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* =======thomas======= */
+.thomas-image {
+    margin-top: 50px;
+    width: 50px;
+}
+
+.thomas-testimonials {
+    margin-top: 30px;
+    padding: 0px 0pc;
+    line-height: 25px;
+}
+
+.name-box-two {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* =======jennie======= */
+.jennie-image {
+    margin-top: 50px;
+    width: 50px;
+}
+
+.jennie-testimonials {
+    margin-top: 30px;
+    padding: 0px 0pc;
+    line-height: 25px;
+}
+
+.name-box-three {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footer-image  {
+    display: flex; 
+}
+
+/* ======footer-text */
+.footer-text-container {
+    background-color: hsl(174, 32%, 65%);
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sunnyside-footer {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+.footer-content {
+    margin-top: 30px;
+    display: flex;
+    gap: 3pc;
+}
+
+.social-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ 
 
 }
