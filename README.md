@@ -6,7 +6,7 @@ Sunnyside agency landing page
 The Sunnyside Agency is dedicated to helping brands grow and increase their sales through creative and strategic solutions. The agency offers a wide range of services designed to enhance brand visibility, engage audiences, and drive business success.
 
 ### screenshot
-![] (design\Screenshot.png)
+![screenshot] ( )
 
 ### Built with
 - Html
